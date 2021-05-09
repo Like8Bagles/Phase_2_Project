@@ -1,5 +1,124 @@
 {
-    "yada": [
-        
+    "players": [
+        {
+            "id": 1,
+            "name": "Nicola Jokic",
+            "rank": "1",
+            "team": "DEN",
+            "position": "Center",
+            "ESPNRating": "54.4"
+        },
+        { 
+            "id": 2,
+            "name": "Giannis Antetokounmpo",
+            "rank": "2",
+            "team": "MIL",
+            "position": "Power Forward",
+            "ESPNRating": "52.0"
+        },
+        {
+            "id": 3,
+            "name": "James Harden",
+            "rank": "3",
+            "team": "BKN",
+            "position": "Shooting Guard",
+            "ESPNRating": "50.6"
+        },
+        {
+            "id": 4,
+            "name": "Luka Doncic",
+            "rank": "4",
+            "team": "DAL",
+            "position": "Point Guard",
+            "ESPNRating": "50.5"
+        },
+        {
+            "id": 5,
+            "name": "Stephen Curry",
+            "rank": "5",
+            "team": "GSW",
+            "position": "Point Guard",
+            "ESPNRating": "49.3"
+        },
+        {
+            "id": 6,
+            "name": "Joel Embid",
+            "rank": "6",
+            "team": "PHI",
+            "position": "Center",
+            "ESPNRating": "48.4"
+        },
+        {
+            "id": 7,
+            "name": "Kevin Durant",
+            "rank": "7",
+            "team": "BKN",
+            "position": "Power Forward",
+            "ESPNRating": "47.9"
+        },
+        {
+            "id": 8,
+            "name": "Russell Westbrook",
+            "rank": "8",
+            "team": "WAS",
+            "position": "Point Guard",
+            "ESPNRating": "46.9"
+        },
+        {
+            "id": 9,
+            "name": "Lebron James",
+            "rank": "9",
+            "team": "LAL",
+            "position": "Small Forward",
+            "ESPNRating": "46.1"
+        },
+        {
+            "id": 10,
+            "name": "Karl-Anthony Towns",
+            "rank": "10",
+            "team": "MIN",
+            "position": "Center",
+            "ESPNRating": "45.6"
+        },
+        {
+            "id": 11,
+            "name": "Damian Lillard",
+            "rank": "11 (Tied)",
+            "team": "POR",
+            "position": "Point Guard",
+            "ESPNRating": "45.3"
+        },
+        {
+            "id": 12,
+            "name": "Kyrie Irving",
+            "rank": "11 (Tied)",
+            "team": "BKN",
+            "position": "Point Guard",
+            "ESPNRating": "45.3"
+        },
+        {
+            "id": 13,
+            "name": "Bradley Beal",
+            "rank": "13",
+            "team": "WAS",
+            "position": "Shooting Guard",
+            "ESPNRating": "45.1"
+        },
+        {
+            "id": 14,
+            "name": "Nikola Vucevic",
+            "rank": "14",
+            "team": "CHI",
+            "position": "Center",
+            "ESPNRating": "44.1"
+        },
+        {
+            "id": 15,
+            "name": "Zion Williamson",
+            "rank": "15",
+            "team": "NOR",
+            "position": "Power Forward",
+            "ESPNRating": "43.9"
+        }
     ]
 }

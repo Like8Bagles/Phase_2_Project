@@ -6,7 +6,9 @@ const linkStyle = {
     padding: '12px',
     margin: '0 6px 6px',
     TextDecoration: 'none',
-    color: 'white'
+    color: 'white',
+    background: 'blue',
+    align: 'center'
 }
 
 const Navigation = () => {
@@ -21,21 +23,21 @@ const Navigation = () => {
                 }}
             >Home</NavLink>
             <NavLink
-            to="/yada"
+            to="/players"
             exact
             style={linkStyle}
             activeStyle={{
                 background: 'darkblue'
             }}
-            >Yada</NavLink>
+            >Players</NavLink>
                 <NavLink
-                to="/daba"
+                to="/list"
                 exact
                 style={linkStyle}
                 activeStyle={{
                     background: 'darkblue'
                 }}
-                >Dada</NavLink>
+                >My List</NavLink>
         </div>
     )
 }
