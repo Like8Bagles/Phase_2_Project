@@ -13,6 +13,9 @@ export default class MyList extends Component {
                 <h2>
                     My List!
                 </h2>
+                <body>
+                    How many likes?
+                </body>
                 <br/>
                 <List />
                 <br/>
