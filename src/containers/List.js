@@ -4,8 +4,7 @@ export default class List extends Component {
     state = {
         players: [],
         likes: "",
-        incriment: "",
-        newLikes: ""
+        increment: ""
     }
 
     componentDidMount() {
@@ -28,7 +27,7 @@ export default class List extends Component {
     handleClick = (e) => {
         //update likes by increment on button press
         this.setState({
-            [e.target.name]: parseInt(this.state.newLikes + this.state.incriment)
+            [e.target.name]: parseInt(this.state.likes + this.state.increment)
         })
     }
 
@@ -40,15 +39,15 @@ export default class List extends Component {
                 <ul>Position: {s.position}</ul>
                 <ul>Overall Rank: {s.rank}</ul>
                 <ul>ESPN Rating: {s.ESPNRating}</ul>
-                <button name = "newLikes" value = {this.state.newLikes} id={s.id} onClick={this.handleClick}>
-                    Like {this.state.newLikes}
+                <button name = "likes" value = {this.state.likes} id={s.id} onClick={this.handleClick}>
+                    Like {this.state.likes}
                 </button>
             </li>)
         
         return (
             <div>
                 <form>
-                    <input type="number" name="incriment" defaultValue={0} onChange={this.handleChange}/>
+                    <input type="number" name="increment" defaultValue={0} onChange={this.handleChange}/>
                 </form>
                 {players}
             </div>
